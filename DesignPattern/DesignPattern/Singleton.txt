@@ -1,0 +1,16 @@
+﻿Singleton Advantages and Guidelines
+
+Advantages
+	- Singleton controls concurrent access to the resource.
+	- It ensures there is only one object available across the application in a cintrolled state.
+
+
+
+
+
+Implementation Guidelines
+	- Ensure that only one instance of the class exists
+	- Provide global access to that instance by 
+		- Decalring all the constructors of the class to be private
+		- Providing static method that returns a reference to the instance
+		- The instance is stored as a private static variable.

@@ -1,0 +1,12 @@
+﻿Lazy Loading
+	- Improves the performance
+	- Avoids unnecessary load till the point object is accessed
+	- Reduces the momery footprint on the start-up
+	- Faster application load
+
+
+Non-lazy or Eager Loading
+	-Pre-instantiation of the project
+	-Commonly used in lower memory footprints
+
+

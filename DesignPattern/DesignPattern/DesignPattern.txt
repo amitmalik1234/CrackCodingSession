@@ -1,1 +1,23 @@
-﻿
+﻿Types of Design Patterns
+
+Creational 
+	This type deals with the object creation and initialization. 
+	This pattern gives the program more flexibility in deciding which objects need to be created for a given cases.
+	Eg. Singleton
+		Factory
+		Abstract Factory 
+		Builder
+		Prototype 
+
+Structural
+	This type deals with class and object compostiion.
+	This pattern focuses on decoupling interface and implmentation of classes and its objects.
+	Eg. Adapter
+		Facade
+		Bridge .. etc
+
+Behavioural 
+	This type deals with the communication between classes and objects.
+	eg. Chain of Responsibility
+		Command
+		Interpreter .. etc
