@@ -47,11 +47,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingletonLazyEager.cs" />
     <Compile Include="Singleton.cs" />
+    <Compile Include="StaticDemoConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DesignPattern.txt" />
     <Content Include="LazyvsEagerInitialization.txt" />
     <Content Include="Singleton.txt" />
+    <Content Include="StaticClassVsSingleton.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

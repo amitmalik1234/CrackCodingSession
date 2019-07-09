@@ -1,0 +1,22 @@
+﻿Static Vs Singleton
+
+	Static is a keyword and Singleton is a design pattern
+	Static classes can contain only static members.
+	Singleton is an object creational pattern with one instance of the class
+	Singleton can implement interfaces, inherit from other classes and it aligns with the OOPS concepts.
+	Singleton object can be passed as a reference 
+	Singleton supports object disposal
+	Singleton object is stored on heap
+	Singleton ojects can be cloned
+
+
+
+Singleton Real World Usages
+
+1. Exception/Information logging
+2. Connection pool management 
+3. File management
+4. Device management such as printer spooling
+5. Application Configuration management
+6. Cache management
+7. And Session based shopping cart are some of the real world usage of singleton design pattern

@@ -21,13 +21,23 @@ namespace DesignPattern
             //    () => PrintEmployeeDetails()
             //    );
 
-            Parallel.Invoke(
-                () => PrintStudentDetailsLazy(),
-                () => PrintEmployeeDetailsLazy()
-                );
+            //Parallel.Invoke(
+            //    () => PrintStudentDetailsLazy(),
+            //    () => PrintEmployeeDetailsLazy()
+            //    );
+
+
+
+            #region Static Class
+            double celcius = 37; double fahrenheit = 98.6;
+            Console.WriteLine("Value of {0} celcius to fahrenheit is {1}",
+                celcius, StaticDemoConverter.ToFarenheit(celcius));
+            Console.WriteLine("Value of {0} fahrenheit to celcius is {1}",
+                fahrenheit, StaticDemoConverter.ToCelcius(fahrenheit));
+            #endregion
+
 
             Console.ReadKey();
-
         }
 
         private static void PrintStudentDetails()
